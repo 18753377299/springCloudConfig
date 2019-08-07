@@ -14,7 +14,7 @@ spring:
 eureka: 
  client:
   service-url:
-   defaultZone: http://localhost:8762/eureka
+   defaultZone: http://eureka7001:7001/eureka
 
 spring: 
   profiles: test
@@ -33,5 +33,5 @@ spring:
 eureka: 
  client: 
   service-url: 
-   defaultZone: http://localhost:8762/eureka
+   defaultZone: http://eureka7001:7001/eureka
 # 请保存为UTF-8格式
